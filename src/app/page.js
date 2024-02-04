@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import "./globals.css"
-import "./Header.js"
+import Header from "./Header.js"
 
 function App(){
   const bgform = {
@@ -134,6 +134,7 @@ function App(){
   return (
     <div className="App">
       <Header />
+      <p>Landing Page</p>
     </div>
   )
 
