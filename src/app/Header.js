@@ -5,7 +5,10 @@ function Header(){
     return (
         <>
             <h1 className='App-header'>Periodic Tabletop!</h1>
-            <Link href="/signUpIn/">Sign up</Link>
+            <Link href="/signup/">Sign up</Link>
+            <Link href="/signin/">Sign in</Link>
+            <Link href="/userProfile/">Profile</Link>
+            <Link href="/">Home</Link>
         </>
     )
 }
